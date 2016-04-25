@@ -10,7 +10,7 @@ app.use(express.static(__dirname + '/build'));
   Do not use it in production!
 */
 app.get('*', function (req, res){
-  res.sendFile(__dirname + '/build/public/index.html');
+  res.sendFile(__dirname + '/build/index.html');
 });
 
 // By default the server address is http://0.0.0.0:3000

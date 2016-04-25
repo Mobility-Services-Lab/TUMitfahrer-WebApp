@@ -1,3 +1,7 @@
+// Configure globals
+global.jQuery = global.$ = require('jquery');
+global.Cookies = require('js-cookie');
+
 var React = require('react');
 var ReactDOM = require('react-dom');
 var ReactRouter = require('react-router');
@@ -8,10 +12,6 @@ var ga = require('react-ga');
 
 // Include Bootstrap JavaScript
 require('bootstrap-sass');
-
-// Configure globals
-global.jQuery = global.$ = require('jquery');
-global.Cookies = require('js-cookie');
 
 /*
   API_ROOT_URL and GOOGLE_ANALYTICS_KEY environment variables

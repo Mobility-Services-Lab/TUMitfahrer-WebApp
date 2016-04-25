@@ -1,5 +1,4 @@
-var bulk = require('bulk-require');
-
-var messages = bulk(__dirname, ['*.json']);
-
-module.exports = messages;
+module.exports = {
+  'de-DE': require('./de-DE.json'),
+  'en-GB': require('./en-GB.json')
+};

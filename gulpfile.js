@@ -14,7 +14,8 @@ var sass = require('gulp-sass');
 var sourcemaps = require('gulp-sourcemaps');
 var imagemin = require('gulp-imagemin');
 
-var environment = process.env.NODE_ENV;
+var environment = process.env.NODE_ENV || 'development';
+console.log(environment);
 
 if (!process.env.API_ROOT_URL || !process.env.GOOGLE_ANALYTICS_KEY) {
   require('./env');
@@ -66,6 +67,18 @@ gulp.task('move-files', function() {
     .pipe(gulp.dest('./build'));
 });
 
+function rebundle(bundler) {
+  var stream = bundler.bundle();
+  return stream
+    .on('error', gutil.log)
+    .pipe(source('main.js'))
+    .pipe(buffer())
+    .pipe(sourcemaps.init({loadMaps: environment === 'development'}))
+      .pipe(uglify().on('error', gutil.log))
+    .pipe(sourcemaps.write())
+    .pipe(gulp.dest('./build/js'));
+}
+
 /**
   Concatinate, compile and uglify the js and jsx files into one big js file.
   Uglifying is not performed in development and test environments to
@@ -73,7 +86,7 @@ gulp.task('move-files', function() {
 */
 function buildScript(watch) {
   var props = {
-    entries: ['./src/main.js'],
+    entries: './src/main.js',
     debug: true,
     cache: {},
     packageCache: {},
@@ -85,18 +98,8 @@ function buildScript(watch) {
     rebundle(bundler);
     gutil.log('Rebundle...');
   });
-}
 
-function rebundle(bundler) {
-  var stream = bundler.bundle();
-  return stream
-    .on('error', gutil.log)
-    .pipe(source('main.js'))
-    .pipe(buffer())
-    .pipe(sourcemaps.init({loadMaps: true}))
-      .pipe(uglify().on('error', gutil.log))
-    .pipe(sourcemaps.write())
-    .pipe(gulp.dest('./build/js'));
+  return rebundle(bundler);
 }
 
 gulp.task('browserify', function() {
@@ -105,6 +108,8 @@ gulp.task('browserify', function() {
 
 gulp.task('compile-js', function() {
   gulp.src(['./static/js/*.js'])
-    .pipe()
+    .pipe(sourcemaps.init({loadMaps: environment === 'development'}))
+      .pipe(uglify().on('error', gutil.log))
+    .pipe(sourcemaps.write())
     .pipe(gulp.dest('./build/js'));
 });
