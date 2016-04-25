@@ -1,0 +1,128 @@
+{
+  "auth": {
+    "key": "value",
+    "login": {
+      "forgot": "Passwort vergessen?",
+      "tum-email": "TUM E-Mail",
+      "password": "Passwort",
+    },
+    "register": {
+      "first_name": "Vorame",
+      "last_name": "Nachname",
+      "department": "Fakultät",
+      "select": "Bitte auswählen",
+      "car": "Auto",
+      "phone_number": "Telefon",
+      "clear": "Zurücksetzen",
+    }
+  },
+  "shared": {
+    "header": {
+      "profile": "Profil",
+      "sign-out": "Abmelden",
+      "sign-up": "Registrieren",
+      "log-in": "Anmelden",
+      "toggle-navigation": "Navigation ein/aus-blenden",
+      "brand": "TUMitfahrer",
+      "language": "Sprache"
+    },
+    "footer": {
+      "legal": "Rechtliches",
+      "imprint": "Impressum",
+      "contact": "Kontakt",
+      "address": {
+        "university": "Technische Universität München",
+        "faculty": "Fakultät für Informatik",
+        "chair": "Lehrstuhl für Wirtschaftsinformatik (I17)",
+        "street": "Boltzmannstraße 3",
+        "city": "85748 Garching bei München"
+      },
+      "images": {
+        "junge-akademie": "TUM: Junge Academie",
+        "mobility-services": "Mobility Services Lab"
+      }
+    }
+  },
+  "static": {
+    "index-page": {
+      "user-options": {
+        "sign-up": "Registrieren",
+        "log-in": "Anmelden"
+      },
+      "jumbotron": {
+        "header": "Viel Spaß beim Fahren",
+        "sub-header": "Erstelle & teile Fahrten"
+      },
+      "app-links": {
+        "android": "Get it on Google Play",
+        "ios": "Get it on AppStore"
+      },
+      "ad-columns" : {
+        "left": {
+          "title": "Mitfahrgelegenheit?",
+          "text": "Suche nach einer Fahrt, fahr mit Kommilitonen mit dem Auto zur Uni."
+        },
+        "center": {
+          "title": "Wochenendpläne?",
+          "text": "Nimm an Aktivitätsfahrten teil und genieß einen Ausflug zu IKEA oder zum Wandern."
+        },
+        "right": {
+          "title": "Kein Auto?",
+          "text": "Kein Problem, andere Kommilitonen können dich mitnehmen."
+        }
+      }
+    },
+    "contact-page": {
+      "title": "Kontakt",
+      "explanation": "Lass uns wissen, wie Dir TUMitfahrer gefällt oder was wir verbessern können.",
+      "form": {
+        "title": {
+          "label": "Betreff"
+        },
+        "content": {
+          "label": "Nachricht",
+          "validation-errors": {
+            "min-length": "Die Nachricht muss mindestens 10 Zeichen enthalten."
+          }
+        },
+        "clear": "Zurücksetzen",
+        "submit": "Senden"
+      }
+    },
+    "legal-page": {
+      "title": "Rechtliche Information"
+    }
+  },
+  "users": {
+    "key": "value",
+    "avatar": {
+      "img-too-large": "Bild zu groß. Dateien dürfen nicht größer als 2MB sein.",
+      "change-profile": "Profilbild ändern",
+      "img-file": "Bild Datei",
+      "upload": "Hochladen",
+    },
+    "profile": {
+      "details": "Profil Details",
+      "update": "Profil aktualisieren"
+    },
+    "change-password": {
+      "no-change": "Passwort konnte nicht geändert werden",
+      "change": "Passwort ändern",
+      "password-old": "Altes Passwort",
+      "password-new": "Neues Passwort",
+      "password-confirm": "Passwort bestätigen",
+      "password-minlength": "Ihr Passwort muss mindestens 4 Zeichen lang sein.",
+      "password-match": "Ihre Passwörter müssen übereinstimmen",
+    },
+    "delete": {
+      "delete": "Account löschen",
+      "confirmation": "Bestätigung",
+      "confirmation-text": "Ich stimme den Bedingungen zu: mein Account wird unwiederbringlich gelöscht. Es gibt kein zurück!",
+      "agree": "Sie müssen dem löschen zustimmen.",
+      "retype": "Bitte wiederholen Sie ihre E-Mail, um das löschen zu bestätigen:",
+    }
+  },
+  "notifications": {
+    "key": "value"
+  }
+}

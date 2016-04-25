@@ -1,0 +1,128 @@
+{
+  "auth": {
+    "key": "value",
+    "login": {
+      "forgot": "Forgot your password?",
+      "tum-email": "TUM email",
+      "password": "Password",
+    },
+    "register": {
+      "first_name": "First Name",
+      "last_name": "Last Name",
+      "department": "Department",
+      "select": "Please select",
+      "car": "Car",
+      "phone_number": "Phone",
+      "clear": "Clear",
+    }
+  },
+  "shared": {
+    "header": {
+      "profile": "Profile",
+      "sign-out": "Sign out",
+      "sign-up": "Sign up",
+      "log-in": "Log in",
+      "toggle-navigation": "Toggle navigation",
+      "brand": "TUMitfahrer",
+      "language": "Language"
+    },
+    "footer": {
+      "legal": "Legal information",
+      "imprint": "Imprint",
+      "contact": "Contact us",
+      "address": {
+        "university": "Technische Universität München",
+        "faculty": "Fakultät für Informatik",
+        "chair": "Lehrstuhl für Wirtschaftsinformatik (I17)",
+        "street": "Boltzmannstraße 3",
+        "city": "85748 Garching bei München"
+      },
+      "images": {
+        "junge-akademie": "TUM: Junge Academie",
+        "mobility-services": "Mobility Services Lab"
+      }
+    }
+  },
+  "static": {
+    "index-page": {
+      "user-options": {
+        "sign-up": "Sign up",
+        "log-in": "Log in"
+      },
+      "jumbotron": {
+        "header": "HAVE FUN DRIVING",
+        "sub-header": "Create & share rides"
+      },
+      "app-links": {
+        "android": "Get it on Google Play",
+        "ios": "Get it on AppStore"
+      },
+      "ad-columns" : {
+        "left": {
+          "title": "Need a lift?",
+          "text": "Search for a ride to your campus and join fellow students going to university by car."
+        },
+        "center": {
+          "title": "Got weekend ideas?",
+          "text": "Join activity rides and enjoy a trip to IKEA, a lake or a hiking trip."
+        },
+        "right": {
+          "title": "Don't have a car?",
+          "text": "Search for a ride. Fellow students will pick you up. Enjoy the car ride."
+        }
+      }
+    },
+    "contact-page": {
+      "title": "Contact us!",
+      "explanation": "Let us know what you think about the app via this form.",
+      "form": {
+        "title": {
+          "label": "Title"
+        },
+        "content": {
+          "label": "Your message",
+          "validation-errors": {
+            "min-length": "Message body should be at least 10 characters long."
+          }
+        },
+        "clear": "Clear fields",
+        "submit": "Send feedback"
+      }
+    },
+    "legal-page": {
+      "title": "Legal Information"
+    }
+  },
+  "users": {
+    "key": "value",
+    "avatar": {
+      "img-too-large": "Image too large. Files may not exceed 2MB.",
+      "change-profile": "Change profile picture",
+      "img-file": "Image File",
+      "upload": "Upload",
+    },
+    "profile": {
+      "details": "Profile details",
+      "update": "Update profile"
+    },
+    "change-password": {
+      "no-change": "Password could not be changed",
+      "change": "Change password",
+      "password-old": "Old password",
+      "password-new": "New password",
+      "password-confirm": "Confirm password",
+      "password-minlength": "Your password must be at least 4 characters long",
+      "password-match": "Your passwords must match",
+    },
+    "delete": {
+      "delete": "Delete account",
+      "confirmation": "Confirmation",
+      "confirmation-text": "I agree to the terms and conditions and I am aware that this action will delete my account completely. There is no going back!",
+      "agree": "You must agree before deleting your account.",
+      "retype": "Please retype your email to confirm account deletion:"
+    }
+  },
+  "notifications": {
+    "key": "value"
+  }
+}

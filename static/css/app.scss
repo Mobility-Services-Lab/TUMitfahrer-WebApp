@@ -1,0 +1,139 @@
+// Core variables and mixins
+@import "../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/variables";
+@import "../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/mixins";
+
+// Reset and dependencies
+@import "../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/normalize";
+
+// Core CSS
+@import "../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/scaffolding";
+@import "../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/type";
+@import "../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/grid";
+@import "../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/forms";
+@import "../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/buttons";
+
+// Components
+@import "../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/dropdowns";
+@import "../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/button-groups";
+@import "../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/input-groups";
+@import "../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/navs";
+@import "../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/navbar";
+@import "../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/labels";
+@import "../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/alerts";
+@import "../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/close";
+
+// Utility classes
+@import "../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/utilities";
+@import "../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/responsive-utilities";
+
+@import "responsive-text.scss";
+
+//TUMitfahrer color palette
+$tumitfahrer-navy-blue: #0e3850;
+$tumitfahrer-steel-blue: #005c80;
+$tumitfahrer-aqua-blue: #007797;
+$tumitfahrer-sky-blue: #5386b4;
+
+$tumitfahrer-light-blue-text: #a2c1d5;
+$tumitfahrer-dark-blue-text: #0d3850;
+$tumitfahrer-grey-text: #acacac;
+
+$tumitfahrer-dark-grey: #2b2b2b;
+$tumitfahrer-grey: #4d4d4d;
+$tumitfahrer-light-grey: #d0d0d0;
+
+$tumitfahrer-form-background: #424242;
+$tumitfahrer-form-text: #8d8d8d;
+
+$tumitfahrer-button-info: #017692;
+$tumitfahrer-button-primary: #0e3850;
+$tumitfahrer-button-success: #48a748;
+$tumitfahrer-button-warning: #c8802c;
+$tumitfahrer-button-danger: #b42f30;
+
+.help-block:empty {
+  display: none;
+}
+
+.app-store-banner {
+  height: 40px;
+}
+
+.list-module {
+//
+}
+
+.list-module .list-module-box {
+  padding: 20px 0;
+  background-color: transparent;
+  border-top: 1px solid transparent;
+}
+
+.list-module .list-module-box:nth-of-type(2n) {
+  background-color: #f6f6f6;
+  border-top-color: #d9d9d9;
+}
+
+.title-container h1,
+.title-container p {
+  color: #fff;
+  text-shadow: 0 0 12px #000;
+}
+
+.page-one-container {
+  @media (max-height: 525px) {
+    min-height: 100vh;
+  }
+  @media (min-height: 525px) {
+    min-height: 525px;
+  }
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+  background: transparent url('../img/people-in-car.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.page-one-container .btn {
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+}
+
+.ride-search-quick {
+  padding: 15px;
+  border-radius: 10px;
+  background: rgba(0,0,0,0.5);
+}
+
+@media (min-width: 768px) {
+  .ride-search-quick .form-group {
+    margin-bottom: 0;
+  }
+}
+
+.height-constrain-50 {
+  max-height: 50px;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+#notification-container {
+  position: fixed;
+  z-index: 9999;
+  top: 62px;
+  right: 12px;
+  max-width: 640px;
+}
+
+.form-signin {
+  margin: 0 auto;
+  max-width: 330px;
+  padding-top: 15px;
+  padding-right: 0;
+  padding-bottom: 15px;
+  padding-left: 0;
+}
+
+.img-avatar {
+  height: 200px;
+  width: 200px;
+}

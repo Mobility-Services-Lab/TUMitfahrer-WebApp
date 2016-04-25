@@ -1,0 +1,36 @@
+TUMitfahrer Frontend Community Edition.
+Copyright 2016 Technische Universität München.
+
+Licenses for third party references:
+Douglas Christopher Wilson Express under the MIT Licence
+Sebastian McKenzie Babelify under the MIT Licence
+Twitter, Inc Bootstrap-sass under the MIT Licence
+Joyent, Inc. and other Node contributors Browserify under the MIT Licence
+Jed Watson Classnames under the MIT Licence
+Hugh Kennedy envify under the MIT Licence
+Gloppens EDB Lag Formsy-react under the MIT Licence
+Tim Brayshaw Formsy-react-components under the MIT Licence
+Fractal gulp under the MIT Licence
+Sindre Sorhus Gulp-autoprefixer under the MIT Licence
+Ben Briggs Gulp-cssnano under the MIT Licence
+Moveline Gulp-env under the MIT Licence
+Richardson & Sons, LLC Gulp-if under the MIT Licence
+Sindre Sorhus Gulp-imagemin under the MIT Licence
+Mikael Brevik Gulp-notify under the MIT Licence
+Larry Davis Gulp-replace under the MIT Licence
+David Manning Gulp-sass under the MIT Licence
+Terin Stock Gulp-uglify under the MIT Licence
+Fractal Gulp-util under the MIT Licence
+Vsevolod Strukchinsky Gulp-watch under the MIT Licence
+jQuery Foundation and other contributors jquery under the MIT Licence
+Klaus Hartl Js-cookie under the MIT Licence
+James Halliday Minimist under the MIT Licence
+Facebook, Inc. React under the BSD Licence
+Facebook, Inc. React-dom under the BSD Licence
+Mozilla Foundation React-ga under the Apache Licence version 2.0
+Ryan Florence React-router under the MIT Licence
+Andrey Popp Reactify under the MIT Licence
+Mikael Brassman reflux under the BSD Licence
+Hugh Kennedy Vinyl-buffer under the MIT Licence
+Hugh Kennedy Vinyl-source-stream under the MIT Licence
+James Halliday Watchify under the MIT Licence

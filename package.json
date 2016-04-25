@@ -1,0 +1,53 @@
+{
+  "name": "tumitfahrer-react",
+  "version": "1.1.0",
+  "description": "Car sharing platform for TUM students.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gulp": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@bitbucket.org:tumitfahrer/tumitfahrer-react.git"
+  },
+  "author": "TUMitfahrer team",
+  "license": "ISC",
+  "dependencies": {
+    "babelify": "^7.2.0",
+    "bootstrap-sass": "^3.3.6",
+    "browserify": "^13.0.0",
+    "bulk-require": "^0.2.1",
+    "bulkify": "^1.1.1",
+    "classnames": "^2.2.3",
+    "envify": "^3.4.0",
+    "express": "^4.13.3",
+    "formsy-react": "^0.17.0",
+    "formsy-react-components": "^0.6.6",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-cssnano": "^2.1.0",
+    "gulp-env": "^0.4.0",
+    "gulp-if": "^2.0.0",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-replace": "^0.5.4",
+    "gulp-sass": "^2.1.1",
+    "gulp-uglify": "^1.5.1",
+    "gulp-util": "^3.0.7",
+    "gulp-watch": "^4.3.5",
+    "jquery": "^2.2.0",
+    "js-cookie": "^2.1.0",
+    "react": "^0.14.6",
+    "react-dom": "^0.14.6",
+    "react-ga": "^1.2.0",
+    "react-intl": "^1.2.2",
+    "react-router": "^2.0.0-rc5",
+    "reactify": "^1.1.1",
+    "reflux": "^0.3.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.7.0"
+  },
+  "devDependencies": {}
+}
