@@ -15,7 +15,6 @@ This repository is a [Node.js](https://nodejs.org) web application, written in J
 2. Update npm
 `npm install npm`
 3. Clone this repository
-`git clone git@bitbucket.org:tumitfahrer/tumitfahrer-react.git`
 4. Open the folder
 `cd tumitfahrer-react-ce`
 6. Install Dependencies
